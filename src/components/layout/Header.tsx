@@ -1,13 +1,15 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useAuthStore } from "@/lib/store/authStore";
 import { useRouter } from "@/i18n/navigation";
+import { formatTime } from "@/lib/utils/format";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export function Header() {
   const t = useTranslations("header");
   const tRoles = useTranslations("roles");
+  const locale = useLocale();
   const session = useAuthStore((s) => s.session);
   const logout = useAuthStore((s) => s.logout);
   const router = useRouter();
@@ -33,6 +35,12 @@ export function Header() {
             <span className="font-medium text-slate-200">{session.name}</span>
             <span className="rounded-full border border-surface-border bg-surface px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-accent">
               {tRoles(session.role)}
+            </span>
+            <span
+              className="font-mono text-slate-600"
+              title={session.signedInAt}
+            >
+              {t("since")} {formatTime(session.signedInAt, locale)}
             </span>
           </div>
         )}

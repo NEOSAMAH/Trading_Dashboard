@@ -16,6 +16,7 @@
     "dashboard": "Panel",
     "watchlist": "İzleme listesi",
     "signedInAs": "Giriş yapan",
+    "since": "giriş saati",
     "logout": "Çıkış yap"
   },
   "roles": {

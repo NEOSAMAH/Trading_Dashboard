@@ -84,6 +84,10 @@ missing API key is realistically the most common "empty" a reviewer will hit.
 
 **Auth & RBAC**
 - Demo session persisted client-side, hydration-safe guard on `/dashboard`
+- The header shows "since HH:MM:SS" next to your name — that's the session's
+  original sign-in time, not a re-render artifact. Refresh the page and it
+  stays identical, which is the actual proof persistence is working, not
+  just a claim in this README
 - Two roles (admin/viewer) gating watchlist edits — a small but real example
   of the role/permission-based systems the listing calls out
 
