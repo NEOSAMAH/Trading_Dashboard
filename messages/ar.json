@@ -1,0 +1,65 @@
+{
+  "auth": {
+    "brand": "نايت‌كوت",
+    "tagline": "قراءة هادئة لسوق صاخب.",
+    "title": "تسجيل الدخول",
+    "subtitle": "هذه جلسة تجريبية محلية — بدون كلمة مرور وبدون خادم. اختر دورًا لترى كيف تتكيف لوحة التحكم.",
+    "nameLabel": "الاسم المعروض",
+    "namePlaceholder": "مثال: عمر",
+    "roleLabel": "تسجيل الدخول كـ",
+    "roleAdminDesc": "يمكنه تعديل قائمة المتابعة",
+    "roleViewerDesc": "وصول للقراءة فقط",
+    "submit": "الدخول إلى اللوحة",
+    "sessionNote": "تُحفظ جلستك في هذا المتصفح فقط (localStorage) وتبقى بعد التحديث حتى تسجّل الخروج."
+  },
+  "header": {
+    "dashboard": "اللوحة",
+    "watchlist": "قائمة المتابعة",
+    "signedInAs": "مسجّل الدخول باسم",
+    "logout": "تسجيل الخروج"
+  },
+  "roles": {
+    "admin": "مدير",
+    "viewer": "مشاهد"
+  },
+  "market": {
+    "title": "مراقبة السوق",
+    "searchPlaceholder": "ابحث بالاسم أو الرمز…",
+    "tabCrypto": "عملات رقمية",
+    "tabStocks": "أسهم",
+    "watchlistOnly": "قائمة المتابعة فقط",
+    "colName": "الاسم",
+    "colSymbol": "الرمز",
+    "colPrice": "السعر",
+    "colChange": "التغيّر 24س",
+    "colVolume": "حجم التداول 24س",
+    "refresh": "تحديث",
+    "refreshing": "جارٍ التحديث…",
+    "updatedAt": "آخر تحديث",
+    "loading": "جارٍ تحميل بيانات السوق…",
+    "errorTitle": "تعذّر تحميل بيانات السوق",
+    "retry": "إعادة المحاولة",
+    "emptyTitle": "لا توجد أصول مطابقة",
+    "emptySubtitle": "جرّب اسمًا أو رمزًا مختلفًا.",
+    "emptyWatchlistTitle": "قائمة المتابعة فارغة",
+    "emptyWatchlistSubtitle": "أضف نجمة لأصل من القائمة الكاملة لتثبيته هنا.",
+    "stocksKeyMissingTitle": "بيانات الأسهم تحتاج مفتاح Finnhub مجاني",
+    "stocksKeyMissingBody": "أضف NEXT_PUBLIC_FINNHUB_API_KEY إلى ملف .env.local لتفعيل هذا القسم. قسم العملات الرقمية يعمل بدون أي إعداد.",
+    "addToWatchlist": "إضافة إلى قائمة المتابعة",
+    "removeFromWatchlist": "إزالة من قائمة المتابعة",
+    "adminOnly": "المدراء فقط يمكنهم تعديل قائمة المتابعة",
+    "na": "غير متاح"
+  },
+  "details": {
+    "title": "تفاصيل الأصل",
+    "selectPrompt": "اختر أصلًا من الجدول لعرض تفاصيله.",
+    "high24h": "أعلى سعر 24س",
+    "low24h": "أدنى سعر 24س",
+    "volume24h": "حجم التداول 24س",
+    "marketCap": "القيمة السوقية",
+    "lastUpdated": "آخر تحديث"
+  },
+  "common": {
+    "loading": "جارٍ التحميل…"
+  }
+}

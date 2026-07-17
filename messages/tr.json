@@ -1,0 +1,65 @@
+{
+  "auth": {
+    "brand": "Nightquote",
+    "tagline": "Gürültülü bir piyasaya sakin bir bakış.",
+    "title": "Giriş yap",
+    "subtitle": "Bu yerel bir demo oturumudur — şifre yok, sunucu yok. Panelin role göre nasıl değiştiğini görmek için bir rol seçin.",
+    "nameLabel": "Görünen ad",
+    "namePlaceholder": "ör. Ahmet",
+    "roleLabel": "Şu rolle giriş yap",
+    "roleAdminDesc": "İzleme listesini düzenleyebilir",
+    "roleViewerDesc": "Yalnızca görüntüleme erişimi",
+    "submit": "Panele gir",
+    "sessionNote": "Oturumunuz yalnızca bu tarayıcıda (localStorage) saklanır ve çıkış yapana kadar sayfa yenilense de kalıcı olur."
+  },
+  "header": {
+    "dashboard": "Panel",
+    "watchlist": "İzleme listesi",
+    "signedInAs": "Giriş yapan",
+    "logout": "Çıkış yap"
+  },
+  "roles": {
+    "admin": "Yönetici",
+    "viewer": "İzleyici"
+  },
+  "market": {
+    "title": "Piyasa takibi",
+    "searchPlaceholder": "İsim veya sembolle ara…",
+    "tabCrypto": "Kripto",
+    "tabStocks": "Hisse senedi",
+    "watchlistOnly": "Yalnızca izleme listesi",
+    "colName": "İsim",
+    "colSymbol": "Sembol",
+    "colPrice": "Fiyat",
+    "colChange": "24s %",
+    "colVolume": "24s hacim",
+    "refresh": "Yenile",
+    "refreshing": "Yenileniyor…",
+    "updatedAt": "Güncellendi",
+    "loading": "Piyasa verileri yükleniyor…",
+    "errorTitle": "Piyasa verileri yüklenemedi",
+    "retry": "Tekrar dene",
+    "emptyTitle": "Eşleşen varlık yok",
+    "emptySubtitle": "Farklı bir isim veya sembol deneyin.",
+    "emptyWatchlistTitle": "İzleme listeniz boş",
+    "emptyWatchlistSubtitle": "Buraya sabitlemek için tam listeden bir varlığı yıldızlayın.",
+    "stocksKeyMissingTitle": "Hisse verileri için ücretsiz bir Finnhub anahtarı gerekiyor",
+    "stocksKeyMissingBody": "Bu sekmeyi etkinleştirmek için .env.local dosyasına NEXT_PUBLIC_FINNHUB_API_KEY ekleyin. Kripto sekmesi kurulum gerektirmeden çalışır.",
+    "addToWatchlist": "İzleme listesine ekle",
+    "removeFromWatchlist": "İzleme listesinden çıkar",
+    "adminOnly": "İzleme listesini yalnızca yöneticiler düzenleyebilir",
+    "na": "Yok"
+  },
+  "details": {
+    "title": "Varlık detayları",
+    "selectPrompt": "Detaylarını görmek için tablodan bir varlık seçin.",
+    "high24h": "24s en yüksek",
+    "low24h": "24s en düşük",
+    "volume24h": "24s hacim",
+    "marketCap": "Piyasa değeri",
+    "lastUpdated": "Son güncelleme"
+  },
+  "common": {
+    "loading": "Yükleniyor…"
+  }
+}

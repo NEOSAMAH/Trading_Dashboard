@@ -1,0 +1,65 @@
+{
+  "auth": {
+    "brand": "Nightquote",
+    "tagline": "A calm read on a noisy market.",
+    "title": "Sign in",
+    "subtitle": "This is a local demo session — no password, no server. Pick a role to see how the dashboard adapts.",
+    "nameLabel": "Display name",
+    "namePlaceholder": "e.g. Omar",
+    "roleLabel": "Sign in as",
+    "roleAdminDesc": "Can curate the watchlist",
+    "roleViewerDesc": "Read-only market access",
+    "submit": "Enter dashboard",
+    "sessionNote": "Your session is kept in this browser only (localStorage) and survives a refresh until you sign out."
+  },
+  "header": {
+    "dashboard": "Dashboard",
+    "watchlist": "Watchlist",
+    "signedInAs": "Signed in as",
+    "logout": "Sign out"
+  },
+  "roles": {
+    "admin": "Admin",
+    "viewer": "Viewer"
+  },
+  "market": {
+    "title": "Market watch",
+    "searchPlaceholder": "Search name or symbol…",
+    "tabCrypto": "Crypto",
+    "tabStocks": "Stocks",
+    "watchlistOnly": "Watchlist only",
+    "colName": "Name",
+    "colSymbol": "Symbol",
+    "colPrice": "Price",
+    "colChange": "24h %",
+    "colVolume": "24h volume",
+    "refresh": "Refresh",
+    "refreshing": "Refreshing…",
+    "updatedAt": "Updated",
+    "loading": "Loading market data…",
+    "errorTitle": "Couldn’t load market data",
+    "retry": "Retry",
+    "emptyTitle": "No assets match",
+    "emptySubtitle": "Try a different name or symbol.",
+    "emptyWatchlistTitle": "Your watchlist is empty",
+    "emptyWatchlistSubtitle": "Star an asset from the full list to pin it here.",
+    "stocksKeyMissingTitle": "Stocks data needs a free Finnhub key",
+    "stocksKeyMissingBody": "Add NEXT_PUBLIC_FINNHUB_API_KEY to a .env.local file to enable this tab. The Crypto tab works without any setup.",
+    "addToWatchlist": "Add to watchlist",
+    "removeFromWatchlist": "Remove from watchlist",
+    "adminOnly": "Only admins can edit the watchlist",
+    "na": "N/A"
+  },
+  "details": {
+    "title": "Asset details",
+    "selectPrompt": "Select an asset from the table to see its details.",
+    "high24h": "24h high",
+    "low24h": "24h low",
+    "volume24h": "24h volume",
+    "marketCap": "Market cap",
+    "lastUpdated": "Last updated"
+  },
+  "common": {
+    "loading": "Loading…"
+  }
+}
